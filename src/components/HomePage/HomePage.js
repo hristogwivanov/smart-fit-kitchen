@@ -1,11 +1,12 @@
 import React from 'react';
-import './HomePage.css';
 
 const HomePage = () => {
   return (
-    <div className="homepage">
-      <h1>Welcome to Smart Fit Kitchen</h1>
-      <p>Healthy meals delivered to your door.</p>
+    <div className="container">
+      <div className="jumbotron">
+        <h1 className="display-4">Welcome to Smart Fit Kitchen</h1>
+        <p className="lead">Healthy meals delivered to your door.</p>
+      </div>
     </div>
   );
 };
