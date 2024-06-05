@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { firestore } from '../firebase/firebase';
+import { firestore } from '../../firebase/firebase';
 import MealItem from './MealItem';
 import './Menu.css';
 
