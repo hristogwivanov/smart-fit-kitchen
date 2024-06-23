@@ -1,10 +1,14 @@
 import React from 'react';
+import './Header.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Header = () => {
   return (
     <div className="container">
       <div className="jumbotron">
-        <h1 className="display-4">Header!</h1>
+      <i class="fal fa-search"></i>
+      <i className="fas fa-search"></i>
+      <img src='assets/images/SFKlogo.png' className='logo' alt="Smart Fit Kitchen logo"></img>
       </div>
     </div>
     // <Header>
